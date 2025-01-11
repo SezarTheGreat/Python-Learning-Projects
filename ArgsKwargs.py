@@ -17,7 +17,7 @@
 #print_address(street = "Classic Lane",city = "Happytown",state = "UK",zip = "201301")
 
 
-##Exercise 1
+#Exercise 1
 def shipping_label(*args,**kwargs):
     for arg in args:
         print(arg,end = " ")
