@@ -18,3 +18,6 @@ if pin in pins.values():
         print(f"{fruit} is not in the list.")
 else:
     print("Access denied.")
+    print("The info can only be accessed by: ")
+    for key in pins.keys():
+        print(key)
