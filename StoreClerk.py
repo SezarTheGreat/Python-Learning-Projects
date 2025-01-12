@@ -6,7 +6,7 @@ print(address[0], address[1])
 pin = int(input("\nEnter your pin: "))
 
 def find_in_file(f):    
-    myfile = open("C:/Programming/Python Files for vss/Text Files/sample.txt")
+    myfile = open("sample.txt")
     fruits = myfile.read()
     fruits = fruits.splitlines()
     if f in fruits:
