@@ -22,3 +22,4 @@ else:
     print("This info can be accessed only by: ")
     for key in pins.keys():
         print(key)
+#This store clerk project is has an issue that is namely the issue of file handling as the file handling part is actually not able to work in this code...
